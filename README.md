@@ -103,9 +103,9 @@ Real-time computer vision platform for identity verification, face detection, he
 </td>
 <td width="50%">
 
-**🌦️ [Weather Forecasting Engine](https://github.com/Eshanya1/weather-forecasting-engine)**
-Ensemble forecasting model trained on 50,000+ historical weather observations — 89% prediction accuracy, 18% RMSE improvement over baseline.
-`Python` `XGBoost` `Random Forest` `scikit-learn`
+**🔍 [PR Review Agent](https://github.com/Eshanya1/pr-review-agent)**
+Multi-agent PR reviewer with a critic pass that verifies every finding against the diff before escalating to a human — 91.7% F1 against a real Claude API run, with an honest, reproducible eval harness ([try it live](https://claude.ai/code/artifact/f06698ab-3232-4422-9f2a-19f4dd5d715e)).
+`Python` `Claude API` `Multi-Agent` `Eval Harness`
 
 </td>
 </tr>
