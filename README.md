@@ -104,7 +104,7 @@ Real-time computer vision platform for identity verification, face detection, he
 <td width="50%">
 
 **🔍 [PR Review Agent](https://github.com/Eshanya1/pr-review-agent)**
-Multi-agent PR reviewer with a critic pass that verifies every finding against the diff before escalating to a human — 91.7% F1 against a real Claude API run, with an honest, reproducible eval harness ([try it live](https://claude.ai/code/artifact/f06698ab-3232-4422-9f2a-19f4dd5d715e)).
+Multi-agent PR reviewer + RAG Q&A over the same repo, both behind a critic/guardrail layer that verifies claims before trusting them — 91.7% F1 on PR review, 0.9 retrieval hit-rate on RAG, both against a real Claude API run ([try it live](https://claude.ai/code/artifact/32e24f30-8618-4f55-b5c2-ee391ef9d5a7)).
 `Python` `Claude API` `Multi-Agent` `Eval Harness`
 
 </td>
