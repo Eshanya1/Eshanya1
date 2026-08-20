@@ -19,7 +19,7 @@ I'm a Software/AI Engineer with 2+ years of production experience building AI-po
 
 - 🔭 Currently building an **Enterprise Knowledge Intelligence Platform** — hybrid RAG + GraphRAG over engineering knowledge bases using LangGraph multi-agent workflows
 - 🤖 Deep interest in **Generative AI**: RAG, agentic systems, LLM evaluation, vector search
-- 🎯 Background in **computer vision** (real-time monitoring systems) and **recommendation systems** (deep RL + collaborative filtering)
+- 🎯 Background in **computer vision** (real-time monitoring systems) and **recommendation systems** (collaborative filtering + contextual bandits)
 - 🎓 B.E. Computer Engineering, Bharati Vidyapeeth's College of Engineering, Pune
 - ⚡ Fun fact: reduced manual invigilation effort by 60% with a computer vision pipeline trained on 15,000+ annotated frames
 
@@ -88,8 +88,8 @@ AI-powered enterprise knowledge platform with hybrid semantic + keyword retrieva
 <td width="50%">
 
 **🎓 [Intelligent Personalized Learning Platform](https://github.com/Eshanya1/personalized-learning-platform)**
-Adaptive recommendation engine combining deep reinforcement learning and collaborative filtering, with transformer-based NLP for contextualized tutoring — personalizing pathways for 5,000+ learners.
-`Python` `TensorFlow` `Transformers` `Flask`
+Adaptive recommendation engine combining matrix-factorization collaborative filtering with a linear contextual bandit — real per-(learner, content) context features, not a flat reward average — validated with an offline evaluation against random/popularity baselines (+44%/+55% Hit-Rate@10).
+`Python` `scikit-learn` `Flask` `Contextual Bandit`
 
 </td>
 </tr>
@@ -97,8 +97,8 @@ Adaptive recommendation engine combining deep reinforcement learning and collabo
 <td width="50%">
 
 **👁️ [Real-Time AI Examination Monitoring System](https://github.com/Eshanya1/exam-monitoring-system)**
-Real-time computer vision platform for identity verification, face detection, head-pose analysis, and behavioral anomaly detection — supporting 300+ concurrent live sessions.
-`Python` `TensorFlow` `OpenCV` `Flask`
+Real-time computer vision platform for identity verification, face detection, head-pose analysis, and behavioral anomaly detection — supporting 300+ concurrent live sessions, with pose accuracy validated via a synthetic rotation-ground-truth script (mean error 0.54°, 3,000 trials).
+`Python` `MediaPipe` `OpenCV` `Flask`
 
 </td>
 <td width="50%">
