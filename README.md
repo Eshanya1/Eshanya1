@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Eshanya Marathe 👋</h1>
-<h3 align="center">AI/ML Engineer • Backend Engineer • Generative AI</h3>
+<h3 align="center">AI/ML Engineer • LLM Fine-Tuning & Evaluation • Backend Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=1F3B57&center=true&vCenter=true&width=600&lines=Building+production+AI%2FML+systems;RAG+%7C+GraphRAG+%7C+AI+Agents+%7C+LangGraph;Computer+Vision+%2B+NLP+at+scale;5%2C000%2B+users+%7C+99.9%25+uptime" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=1F3B57&center=true&vCenter=true&width=650&lines=Fine-tuning+%2B+quantizing+%2B+serving+open-weight+LLMs;Multi-agent+systems+with+real+eval+harnesses;Shipping+MCP+tools%2C+not+just+prompts;5%2C000%2B+users+%7C+99.9%25+uptime+in+production" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -15,10 +15,11 @@
 
 ### 🧠 About Me
 
-I'm a Software/AI Engineer with 2+ years of production experience building AI-powered systems, backend services, and intelligent automation platforms — spanning system design, ML model deployment, computer vision, NLP, and modern Generative AI architectures. I've shipped systems serving **5,000+ users**, supporting **300+ concurrent sessions**, at **99.9% production availability**.
+Software/AI Engineer with 2+ years of production experience — currently shipping AI systems for a live edtech platform serving **5,000+ users** at **99.9% uptime**. Alongside that, I build complete AI/ML projects end-to-end and hold them to the same bar I'd want from a hire: real evaluation, not vibes.
 
-- 🔭 Currently building an **Enterprise Knowledge Intelligence Platform** — hybrid RAG + GraphRAG over engineering knowledge bases using LangGraph multi-agent workflows
-- 🤖 Deep interest in **Generative AI**: RAG, agentic systems, LLM evaluation, vector search
+- 🔬 Most recently: fine-tuned a small open-weight model via LoRA for NL-to-SQL, quantized and served it locally via Ollama, exposed it as an installable **MCP tool**, and benchmarked it against prompting Claude directly on a real execution-accuracy eval — then audited my own results by hand rather than taking the flattering number at face value
+- 🕵️ I re-validate my own numbers before publishing them. One project's headline metric didn't reproduce on a fresh run — I re-ran it 3 times, found the real number, and corrected it rather than leaving the flattering one up
+- 🤖 Deep interest in **Generative AI**: LLM fine-tuning, multi-agent systems, RAG, MCP, LLM evaluation
 - 🎯 Background in **computer vision** (real-time monitoring systems) and **recommendation systems** (collaborative filtering + contextual bandits)
 - 🎓 B.E. Computer Engineering, Bharati Vidyapeeth's College of Engineering, Pune
 - ⚡ Fun fact: reduced manual invigilation effort by 60% with a computer vision pipeline trained on 15,000+ annotated frames
@@ -35,21 +36,24 @@ I'm a Software/AI Engineer with 2+ years of production experience building AI-po
   <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
 </p>
 
-**AI / Machine Learning**
+**LLMs / Generative AI**
 <p>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-006ACC?style=flat-square" />
-</p>
-
-**Generative AI**
-<p>
+  <img src="https://img.shields.io/badge/Claude%20API-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-EE4C2C?style=flat-square" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-1C3C3C?style=flat-square" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+</p>
+
+**Machine Learning**
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/XGBoost-006ACC?style=flat-square" />
+  <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
 </p>
 
 **Backend & Cloud**
@@ -68,8 +72,7 @@ I'm a Software/AI Engineer with 2+ years of production experience building AI-po
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" />
-  <img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
 </p>
 
 ---
@@ -80,25 +83,9 @@ I'm a Software/AI Engineer with 2+ years of production experience building AI-po
 <tr>
 <td width="50%">
 
-**🔎 [Enterprise Knowledge Intelligence Platform](https://github.com/Eshanya1/enterprise-knowledge-platform)**
-AI-powered enterprise knowledge platform with hybrid semantic + keyword retrieval and GraphRAG workflows in Neo4j. Multi-agent query planning, retrieval, verification, and citation generation via LangGraph.
-`Python` `FastAPI` `LangGraph` `Neo4j` `RAG`
-
-</td>
-<td width="50%">
-
-**🎓 [Intelligent Personalized Learning Platform](https://github.com/Eshanya1/personalized-learning-platform)**
-Adaptive recommendation engine combining matrix-factorization collaborative filtering with a linear contextual bandit — real per-(learner, content) context features, not a flat reward average — validated with an offline evaluation against random/popularity baselines (+44%/+55% Hit-Rate@10).
-`Python` `scikit-learn` `Flask` `Contextual Bandit`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**👁️ [Real-Time AI Examination Monitoring System](https://github.com/Eshanya1/exam-monitoring-system)**
-Real-time computer vision platform for identity verification, face detection, head-pose analysis, and behavioral anomaly detection — supporting 300+ concurrent live sessions, with pose accuracy validated via a synthetic rotation-ground-truth script (mean error 0.54°, 3,000 trials).
-`Python` `MediaPipe` `OpenCV` `Flask`
+**🗄️ [SQL Specialist MCP](https://github.com/Eshanya1/sql-specialist-mcp)**
+Fine-tuned open-weight LLM (LoRA) served as an installable MCP tool for natural-language-to-SQL — quantized and self-hosted via Ollama, benchmarked against prompting Claude directly on a real execution-accuracy eval: 92.9% accuracy at $0/query vs. 53.6% at $1.06/1k calls for the frontier baseline, with the eval methodology's own gaps audited and documented rather than hidden behind the headline number ([try it live](https://eshanya1.github.io/sql-specialist-mcp/)).
+`Python` `LoRA Fine-Tuning` `MCP` `Ollama` `LLM Evaluation`
 
 </td>
 <td width="50%">
@@ -110,15 +97,32 @@ Multi-agent PR reviewer + RAG Q&A over the same repo, both behind a critic/guard
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td width="50%">
 
-**🗄️ [SQL Specialist MCP](https://github.com/Eshanya1/sql-specialist-mcp)**
-Fine-tuned open-weight LLM (LoRA) served as an installable MCP tool for natural-language-to-SQL — quantized and self-hosted via Ollama, benchmarked against prompting Claude directly on a real execution-accuracy eval: 92.9% accuracy at $0/query vs. 53.6% at $1.06/1k calls for the frontier baseline, with the eval methodology's own gaps audited and documented rather than hidden behind the headline number ([try it live](https://eshanya1.github.io/sql-specialist-mcp/)).
-`Python` `LoRA Fine-Tuning` `MCP` `Ollama` `LLM Evaluation`
+**🔎 [Enterprise Knowledge Intelligence Platform](https://github.com/Eshanya1/enterprise-knowledge-platform)**
+AI knowledge platform for retrieving and reasoning over distributed engineering knowledge via a LangGraph pipeline with a real conditional edge — narrow queries skip graph expansion entirely, not an if-statement dressed up as orchestration. Hybrid TF-IDF + BM25 retrieval with MMR reranking and GraphRAG relationship modeling, evaluated live (Precision@3 = 0.667, MRR = 1.0) ([try it live](https://eshanya1.github.io/enterprise-knowledge-platform/)).
+`Python` `FastAPI` `LangGraph` `GraphRAG` `SQLite`
+
+</td>
+<td width="50%">
+
+**👁️ [Real-Time AI Examination Monitoring System](https://github.com/Eshanya1/exam-monitoring-system)**
+Computer vision platform for identity verification, head-pose analysis, and behavioral anomaly detection — real 3D pose estimation via MediaPipe FaceMesh + solvePnP, validated with a synthetic rotation-ground-truth script (mean error 0.54°, 3,000 trials) rather than an unverifiable claim ([try it live](https://eshanya1.github.io/exam-monitoring-system/)).
+`Python` `MediaPipe` `OpenCV` `Flask`
 
 </td>
 </tr>
 </table>
+
+<details>
+<summary>More projects</summary>
+<br>
+
+**🎓 [Intelligent Personalized Learning Platform](https://github.com/Eshanya1/personalized-learning-platform)** — matrix-factorization collaborative filtering with a linear contextual bandit (real per-learner context features, not a flat reward average), validated with an offline Hit-Rate@10 eval against random/popularity baselines (+44%/+55%). `Python` `scikit-learn` `Contextual Bandit`
+
+**🌦️ [Weather Forecasting Engine](https://github.com/Eshanya1/weather-forecasting-engine)** — real weighted XGBoost + Random Forest ensemble (blend weight chosen on a held-out validation set, not "pick whichever wins on test"), disclosed against a persistence baseline as the harder, more honest comparison. `Python` `XGBoost` `scikit-learn`
+
+</details>
 
 ---
 
@@ -138,7 +142,7 @@ Fine-tuned open-weight LLM (LoRA) served as an installable MCP tool for natural-
 ### 📫 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/Eshanya1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/eshanya24"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:24.eshanyamarathe1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/Eshanya1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
