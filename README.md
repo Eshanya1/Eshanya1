@@ -109,6 +109,15 @@ Multi-agent PR reviewer + RAG Q&A over the same repo, both behind a critic/guard
 
 </td>
 </tr>
+<tr>
+<td colspan="2">
+
+**🗄️ [SQL Specialist MCP](https://github.com/Eshanya1/sql-specialist-mcp)**
+Fine-tuned open-weight LLM (LoRA) served as an installable MCP tool for natural-language-to-SQL — quantized and self-hosted via Ollama, benchmarked against prompting Claude directly on a real execution-accuracy eval: 92.9% accuracy at $0/query vs. 53.6% at $1.06/1k calls for the frontier baseline, with the eval methodology's own gaps audited and documented rather than hidden behind the headline number.
+`Python` `LoRA Fine-Tuning` `MCP` `Ollama` `LLM Evaluation`
+
+</td>
+</tr>
 </table>
 
 ---
